@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aliane Lima</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="assets/img/logo.png" alt="Gmaakeup Logo" class="logo">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#course">Curso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                </ul>
+                
+                <a href="#quote" class="btn btn-primary quote-btn">Minha rede</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <span class="hero-subtitle">MAKEUP ARTIST</span>
+                        <h1 class="hero-title">WELCOME TO GMAAEUP BEAUTY SALONY</h1>
+                        <div class="hero-buttons">
+                            <a href="#about" class="btn btn-outline-light learn-more-btn">
+                                <span>SAIBA MAIS</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <button class="btn btn-play" data-bs-toggle="modal" data-bs-target="#videoModal">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                       
+                        <img src="assets/img/aliheader.jpg" alt="Makeup Artist" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-images">
+                        <div class="experience-badge">
+                            <span class="experience-number">10+</span>
+                            <span class="experience-text">Experiência</span>
+                        </div>
+                        <img src="assets/img/alitestimonial.jpg" alt="Makeup Artist" class="img-fluid about-img-1">
+                        <img src="assets/img/about-2.jpg" alt="Makeup Work" class="img-fluid about-img-2">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h2 class="section-title">ALIANE LIMA</h2>
+                        <p class="about-description">
+                            Com mais de 10 anos de experiência, ajudo mulheres a se enxergarem com mais amor, segurança e autoestima por meio da beleza.
+
+Minha missão vai além de maquiar: eu transformo inseguranças em autoconfiança.
+Seja em uma produção profissional ou ensinando outras mulheres a se maquiar sozinhas, meu objetivo é mostrar que toda mulher pode se sentir linda com a sua própria beleza.
+                        </p>
+                        <ul class="about-features">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                Certificação Catherine Hill 
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                               Mais de 100 maquiagens feitas
+                            </li>
+                        </ul>
+                        <a href="#services" class="btn btn-primary">SAIBA MAIS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Section -->
+    <section id="course" class="course-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <span class="section-subtitle">APRENDA A SE MAQUIAR</span>
+                    <h2 class="section-title text-white">CURSO DE AUTOMAQUIAGEM</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="course-content-wrapper">
+                        <div class="course-target">
+                            <h3>🎯 Para quem é:</h3>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Iniciantes</li>
+                                <li><i class="fas fa-check-circle"></i> Mulheres que querem aprender a se maquiar sozinhas</li>
+                                <li><i class="fas fa-check-circle"></i> Quem busca uma maquiagem clean e elegante no dia a dia</li>
+                            </ul>
+                        </div>
+                        <div class="course-learn">
+                            <h3>📚 O que você vai aprender:</h3>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Preparação da pele</li>
+                                <li><i class="fas fa-check-circle"></i> Base e corretivo no tom certo</li>
+                                <li><i class="fas fa-check-circle"></i> Contorno e iluminação</li>
+                                <li><i class="fas fa-check-circle"></i> Olhos esfumados simples</li>
+                                <li><i class="fas fa-check-circle"></i> Finalização e selagem</li>
+                                <li><i class="fas fa-check-circle"></i> Dicas de produtos acessíveis</li>
+                            </ul>
+                        </div>
+                        <div class="course-includes">
+                            <h3>📖 Inclui:</h3>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Apostila digital exclusiva</li>
+                                <li><i class="fas fa-check-circle"></i> Materiais para uso durante a aula (presencial)</li>
+                                <li><i class="fas fa-check-circle"></i> Dicas profissionais + Certificado digital</li>
+                                <li><i class="fas fa-check-circle"></i> Suporte pelo WhatsApp após o curso</li>
+                            </ul>
+                        </div>
+                        <div class="course-duration">
+                            <h3>⏰ Duração:</h3>
+                            <p>2:30h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Users Section -->
+    <section class="users-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <span class="section-subtitle">USERS</span>
+                    <h2 class="section-title text-white">WORLDWIDE USERS</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="users-logos">
+                        <img src="assets/img/alitestimonial.jpg" alt="Award 1" class="img-fluid">
+                        <img src="assets/img/alitestimonial.jpg" alt="Award 2" class="img-fluid">
+                        <img src="assets/img/alitestimonial.jpg" alt="Award 3" class="img-fluid">
+                        <img src="assets/img/alitestimonial.jpg" alt="Award 4" class="img-fluid">
+                        <img src="assets/img/alitestimonial.jpg" alt="Award 4" class="img-fluid">
+                        <img src="assets/img/alitestimonial.jpg" alt="Award 4" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <span class="section-subtitle">E DEPOIS?</span>
+                    <h2 class="section-title">O QUE VOCÊ SE TORNARÁ?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="assets/img/aliheader.jpg" alt="Face Makeup" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title">MAQUIAGEM SOCIAL</h4>
+                            <p class="service-description">
+                                Author of Die Vertretung beim Rechtsgeschäft. 
+                                Agency, in law, the relationship that exists.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="assets/img/aliheader.jpg" alt="Eye Makeup" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title">MAQUIAGEM ARTÍSTICA</h4>
+                            <p class="service-description">
+                                Author of Die Vertretung beim Rechtsgeschäft. 
+                                Agency, in law, the relationship that exists.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="assets/img/aliheader.jpg" alt="Hair Makeup" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title">MAKE EXPRESS</h4>
+                            <p class="service-description">
+                                Author of Die Vertretung beim Rechtsgeschäft. 
+                                Agency, in law, the relationship that exists.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="assets/img/aliheader.jpg" alt="Bridal Makeup" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title">GLOW UP</h4>
+                            <p class="service-description">
+                                Author of Die Vertretung beim Rechtsgeschäft. 
+                                Agency, in law, the relationship that exists.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <span class="section-subtitle">TESTIMONIALS</span>
+                    <h2 class="section-title text-white">SOME USERS FEEDBACK</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial-content text-center">
+                                    <div class="testimonial-quote">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <p class="testimonial-text">
+                                        "ETIAM SODALES CONGUE CONSEQUAT. AENEAN VITAE ULLAMCORPER LEO. 
+                                        PELLENTESQUE CONDIMENTUM EX UT ERAT POSUERE, QUIS TINCIDUNT AUGUE 
+                                        SEMPER. CRAS CONGUE NULLA SED QUAM HENDRERIT EUISMOD"
+                                    </p>
+                                    <div class="testimonial-author">
+                                        <img src="assets/img/alitestimonial.jpg" alt="Alexis Browni Jr." class="testimonial-avatar">
+                                        <div class="author-info">
+                                            <h5 class="author-name">ALEXIS BROWNI JR.</h5>
+                                            <span class="author-position">FOUNDER OF ALXIS CO.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-content text-center">
+                                    <div class="testimonial-quote">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <p class="testimonial-text">
+                                        "AMAZING WORK AND PROFESSIONAL SERVICE. THE MAKEUP WAS PERFECT 
+                                        FOR MY WEDDING DAY. HIGHLY RECOMMENDED FOR ANYONE LOOKING FOR 
+                                        QUALITY MAKEUP SERVICES."
+                                    </p>
+                                    <div class="testimonial-author">
+                                        <img src="assets/img/alitestimonial.jpg" alt="Sarah Johnson" class="testimonial-avatar">
+                                        <div class="author-info">
+                                            <h5 class="author-name">SARAH JOHNSON</h5>
+                                            <span class="author-position">BRIDE</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-content text-center">
+                                    <div class="testimonial-quote">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <p class="testimonial-text">
+                                        "EXCEPTIONAL TALENT AND ATTENTION TO DETAIL. THE TEAM MADE ME 
+                                        FEEL BEAUTIFUL AND CONFIDENT. WILL DEFINITELY BOOK AGAIN FOR 
+                                        FUTURE EVENTS."
+                                    </p>
+                                    <div class="testimonial-author">
+                                        <img src="assets/img/alitestimonial.jpg" alt="Maria Silva" class="testimonial-avatar">
+                                        <div class="author-info">
+                                            <h5 class="author-name">MARIA SILVA</h5>
+                                            <span class="author-position">MODEL</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Carousel Controls -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <span class="section-subtitle">PORTFOLIO</span>
+                    <h2 class="section-title">ALGUNS DE MEUS TRABALHOS</h2>
+                </div>
+            </div>
+            
+            <!-- Portfolio Filter -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="portfolio-filter text-center mb-4">
+                        <button class="filter-btn active" data-filter="*">ALL WORKS</button>
+                        <button class="filter-btn" data-filter=".face">FACE MAKEUP</button>
+                        <button class="filter-btn" data-filter=".eye">EYE MAKEUP</button>
+                        <button class="filter-btn" data-filter=".hair">HAIR MAKEUP</button>
+                        <button class="filter-btn" data-filter=".bridal">BRIDAL MAKEUP</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Portfolio Grid -->
+            <div class="row portfolio-grid">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item face">
+                    <div class="portfolio-card">
+                        <img src="assets/img/alitestimonial.jpg" alt="Portfolio 1" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <a href="assets/img/alitestimonial.jpg" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolioModal">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item eye">
+                    <div class="portfolio-card">
+                        <img src="assets/img/alitestimonial.jpg" alt="Portfolio 2" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <a href="assets/img/alitestimonial.jpg" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolioModal">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item bridal">
+                    <div class="portfolio-card">
+                        <img src="assets/img/alitestimonial.jpg" alt="Portfolio 3" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <a href="assets/img/alitestimonial.jpg" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolioModal">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item hair">
+                    <div class="portfolio-card">
+                        <img src="assets/img/alitestimonial.jpg" alt="Portfolio 4" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <a href="assets/img/alitestimonial.jpg" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolioModal">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item face">
+                    <div class="portfolio-card">
+                        <img src="assets/img/alitestimonial.jpg" alt="Portfolio 5" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <a href="assets/img/alitestimonial.jpg" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolioModal">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item bridal">
+                    <div class="portfolio-card">
+                        <img src="assets/img/alitestimonial.jpg" alt="Portfolio 6" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <a href="assets/img/alitestimonial.jpg" class="portfolio-link" data-bs-toggle="modal" data-bs-target="#portfolioModal">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <span class="section-subtitle">MAIS SOBRE MIM</span>
+                    <h2 class="section-title text-white">ULTIMAS POSTS</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="news-card">
+                        <div class="news-image">
+                            <img src="assets/img/aliheader.jpg" alt="News 1" class="img-fluid">
+                        </div>
+                        <div class="news-content">
+                            <div class="news-meta">
+                                <span class="news-author"><i class="fas fa-user"></i> Aliane</span>
+                                <span class="news-date"><i class="fas fa-calendar"></i> 24th March 2021</span>
+                            </div>
+                            <h4 class="news-title">FUSCE SUSCIPIT ARCU VELIT SCELERISQUE TEMPUS EST</h4>
+                            <p class="news-excerpt">
+                                Cras ultrices maximus arcu ut aqam. Aliquam daber a diam ante.
+                            </p>
+                            <a href="#" class="btn btn-primary news-btn">Leia Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="news-card">
+                        <div class="news-image">
+                            <img src="assets/img/aliheader.jpg" alt="News 2" class="img-fluid">
+                        </div>
+                        <div class="news-content">
+                            <div class="news-meta">
+                                <span class="news-author"><i class="fas fa-user"></i> Aliane</span>
+                                <span class="news-date"><i class="fas fa-calendar"></i> 24th March 2021</span>
+                            </div>
+                            <h4 class="news-title">FUSCE SUSCIPIT ARCU VELIT SCELERISQUE TEMPUS EST</h4>
+                            <p class="news-excerpt">
+                                Cras ultrices maximus arcu ut aqam. Aliquam daber a diam ante.
+                            </p>
+                            <a href="#" class="btn btn-primary news-btn">leia Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="news-card">
+                        <div class="news-image">
+                            <img src="assets/img/aliheader.jpg" alt="News 3" class="img-fluid">
+                        </div>
+                        <div class="news-content">
+                            <div class="news-meta">
+                                <span class="news-author"><i class="fas fa-user"></i> Aliane</span>
+                                <span class="news-date"><i class="fas fa-calendar"></i> 24th March 2021</span>
+                            </div>
+                            <h4 class="news-title">FUSCE SUSCIPIT ARCU VELIT SCELERISQUE TEMPUS EST</h4>
+                            <p class="news-excerpt">
+                                Cras ultrices maximus arcu ut aqam. Aliquam daber a diam ante.
+                            </p>
+                            <a href="#" class="btn btn-primary news-btn">Leia Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="newsletter-title">GET UPDATE BY SIGNUP OUR NEWSLETTER</h3>
+                </div>
+                <div class="col-lg-6">
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Email Address..." required>
+                            <button class="btn btn-dark" type="submit">COMECE AGORA</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <a href="#" class="footer-logo">
+                            <img src="assets/img/logo.png" alt="Gmaakeup Logo" class="img-fluid">
+                        </a>
+                        <p class="footer-description">
+                            Nam purus nibh, luctus at cursus vel, 
+                            efficitur eu dui. Aenean tellus massa, 
+                            euismod eu dictum in, tincidunt ac 
+                            lacus. Quisque vitae tellus a nibh 
+                            sollicitudin viverra id sed libero.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h5 class="footer-title">MEUS LINKS</h5>
+                        <ul class="footer-links">
+                            <li><a href="#home">Inicio</a></li>
+                            <li><a href="#about">Sobre Mim</a></li>
+                            <li><a href="#services">Serviços</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Privacidade</a></li>
+                            <li><a href="#">Termos er Condições</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h5 class="footer-title">OUR SERVICES</h5>
+                        <ul class="footer-links">
+                            <li><a href="#">Face Makeup</a></li>
+                            <li><a href="#">Eye Makeup</a></li>
+                            <li><a href="#">Hair Makeup</a></li>
+                            <li><a href="#">Bridal Makeup</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Term & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h5 class="footer-title">RECEBA NOTÍCIAS</h5>
+                        <div class="footer-contact">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <span>1800-121-3637</span>
+                                    <span>+91-7052-101-786</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <a href="mailto:info@example.com">info@example.com</a>
+                                    <a href="mailto:help@example.com">help@example.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <span>1247/Plot No. 39,</span>
+                                    <span>LHB Colony, Kanpur</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <div class="footer-map">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3570.2!2d80.3319!3d26.4499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c47d4!2sKanpur!5e0!3m2!1sen!2sin!4v1234567890"
+                                width="100%" 
+                                height="200" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="footer-divider">
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="footer-copyright">
+                        Copyright © 2021 Zcubedesign. All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy</a>
+                        <a href="#">Term & Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal -->
+    <div class="modal fade" id="portfolioModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="" alt="Portfolio Image" class="img-fluid portfolio-modal-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
+
