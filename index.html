@@ -17,6 +17,77 @@
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <style>
+/* Hover effects for cards */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px -10px rgba(233, 30, 99, 0.3) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .display-3 {
+        font-size: 2.5rem !important;
+    }
+    
+    .position-absolute[style*="bottom: -24px"] {
+        position: relative !important;
+        bottom: auto !important;
+        right: auto !important;
+        margin-top: 1rem;
+        align-self: center;
+    }
+}
+
+/* Animation for background elements */
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
+
+.position-absolute.rounded-circle {
+    animation: float 6s ease-in-out infinite;
+}
+
+.position-absolute.rounded-circle:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.position-absolute.rounded-circle:nth-child(3) {
+    animation-delay: 4s;
+}
+
+
+</style>
+
+<!--CERTIFICADOS -->
+<sTYLE>.luxury-gradient {
+      background: linear-gradient(to right, #D4A5A5, #F4E2D8, #B76E79);
+      opacity: 0.2;
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+    .text-luxury-purple { color: #5A2A83; }
+    .text-muted-foreground { color: #6c757d; }
+    .fill-accent { fill: #f5c518; }
+    .bg-primary-custom { background-color: #B76E79; }
+    .star-icon {
+      width: 1rem;
+      height: 1rem;
+    }
+    .card-hover:hover {
+      transform: translateY(-8px);
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    </sTYLE>
 </head>
 <body>
     <!-- Navigation -->
@@ -67,7 +138,7 @@
                 <div class="col-lg-6">
                     <div class="hero-content">
                         <span class="hero-subtitle">MAKEUP ARTIST</span>
-                        <h1 class="hero-title">WELCOME TO GMAAEUP BEAUTY SALONY</h1>
+                        <h1 class="hero-title">CURSO DE AUTOMAQUIAGEM JARAGUÁ DO SUL</h1>
                         <div class="hero-buttons">
                             <a href="#about" class="btn btn-outline-light learn-more-btn">
                                 <span>SAIBA MAIS</span>
@@ -82,7 +153,7 @@
                 <div class="col-lg-6">
                     <div class="hero-image">
                        
-                        <img src="assets/img/aliheader.jpg" alt="Makeup Artist" class="img-fluid">
+                        <img src="assets/img/alianeteaching2.jpeg" alt="Makeup Artist" class="img-fluid" width="800px">
                     </div>
                 </div>
             </div>
@@ -99,8 +170,8 @@
                             <span class="experience-number">10+</span>
                             <span class="experience-text">Experiência</span>
                         </div>
-                        <img src="assets/img/alitestimonial.jpg" alt="Makeup Artist" class="img-fluid about-img-1">
-                        <img src="assets/img/about-2.jpg" alt="Makeup Work" class="img-fluid about-img-2">
+                        <img src="assets/img/aliperfil1.jpeg" alt="Makeup Artist" class="img-fluid about-img-1">
+                        <!-- <img src="assets/img/about-2.jpg" alt="Makeup Work" class="img-fluid about-img-2"> -->
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -130,7 +201,7 @@ Seja em uma produção profissional ou ensinando outras mulheres a se maquiar so
     </section>
 
     <!-- Course Section -->
-    <section id="course" class="course-section py-5">
+    <!-- <section id="course" class="course-section py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -177,10 +248,188 @@ Seja em uma produção profissional ou ensinando outras mulheres a se maquiar so
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+
+
+
+    <!-- COURSE SECTION 2 LOVABLE-->
+      <!-- Course Section -->
+    <section id="course" class="course-section py-5 position-relative overflow-hidden" style="background: linear-gradient(135deg, #3d1a3d, #e91e63); min-height: 100vh;">
+    
+    <!-- Background decorative elements -->
+    <div class="position-absolute w-100 h-100" style="opacity: 0.1; top: 0; left: 0;">
+        <div class="position-absolute rounded-circle" style="top: 40px; left: 40px; width: 128px; height: 128px; background: #c09853; filter: blur(60px);"></div>
+        <div class="position-absolute rounded-circle" style="bottom: 80px; right: 80px; width: 160px; height: 160px; background: #d4af37; filter: blur(60px);"></div>
+        <div class="position-absolute rounded-circle" style="top: 50%; left: 33%; width: 96px; height: 96px; background: #ff9800; filter: blur(40px);"></div>
+    </div>
+
+    <div class="container position-relative" style="z-index: 10;">
+        
+        <!-- Header -->
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <span class="badge px-4 py-2 mb-3 text-white" style="background: rgba(255,255,255,0.2); backdrop-filter: blur(10px); font-size: 0.875rem; letter-spacing: 2px; text-transform: uppercase; border-radius: 50px;">
+                    Aprenda a se maquiar
+                </span>
+                <h2 class="display-3 fw-bold text-white mb-4 lh-1">
+                    Curso de<br>
+                    <span style="background: linear-gradient(90deg, #c09853, #ff9800); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                        Automaquiagem
+                    </span>
+                </h2>
+                <p class="lead text-white-50 mx-auto" style="max-width: 600px;">
+                    Desperte sua beleza natural e ganhe confiança com técnicas profissionais de maquiagem
+                </p>
+            </div>
+        </div>
+
+        <div class="row align-items-center g-5">
+            
+            <!-- Hero Image Column -->
+            <div class="col-lg-6">
+                <div class="position-relative">
+                    <div class="overflow-hidden shadow-lg" style="border-radius: 24px; box-shadow: 0 20px 40px -10px rgba(233, 30, 99, 0.3);">
+                        <img src="assets/img/alianeteaching2.jpeg" alt="Curso de Maquiagem" class="img-fluid" style="height: 400px; width: 100%; object-fit: cover;">
+                       
+                        <div class="position-absolute w-100 h-100" style="top: 0; left: 0; background: linear-gradient(to top, rgba(0,0,0,0.3), transparent);"></div>
+                    </div>
+                    
+                    <!-- Duration Badge -->
+                    <div class="position-absolute bg-white p-3 shadow" style="bottom: -24px; right: -24px; border-radius: 16px; box-shadow: 0 10px 30px -5px rgba(0,0,0,0.2);">
+                        <div class="text-center">
+                            <i class="fas fa-clock text-primary mb-2" style="font-size: 2rem; color: #e91e63 !important;"></i>
+                            <p class="small fw-semibold text-muted mb-1">Duração</p>
+                            <p class="h4 fw-bold mb-0" style="color: #e91e63;">2:30h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course Content Column -->
+            <div class="col-lg-6">
+                
+                <!-- Target Audience Card -->
+                <div class="card mb-4 border-0 shadow-sm" style="background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border-radius: 16px; transition: all 0.3s ease;">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="p-2 rounded-circle me-3" style="background: rgba(233, 30, 99, 0.1);">
+                                <i class="fas fa-bullseye" style="color: #e91e63; font-size: 1.5rem;"></i>
+                            </div>
+                            <h3 class="h5 fw-bold text-dark mb-0">Para quem é</h3>
+                        </div>
+                        <ul class="list-unstyled mb-0">
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="fas fa-check-circle me-3" style="color: #e91e63;"></i>
+                                <span class="text-dark">Iniciantes</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="fas fa-check-circle me-3" style="color: #e91e63;"></i>
+                                <span class="text-dark">Mulheres que querem aprender a se maquiar sozinhas</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="fas fa-check-circle me-3" style="color: #e91e63;"></i>
+                                <span class="text-dark">Quem busca uma maquiagem clean e elegante no dia a dia</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- What You'll Learn Card -->
+                <div class="card mb-4 border-0 shadow-sm" style="background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border-radius: 16px; transition: all 0.3s ease;">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="p-2 rounded-circle me-3" style="background: rgba(255, 152, 0, 0.1);">
+                                <i class="fas fa-book-open" style="color: #ff9800; font-size: 1.5rem;"></i>
+                            </div>
+                            <h3 class="h5 fw-bold text-dark mb-0">O que você vai aprender</h3>
+                        </div>
+                        <ul class="list-unstyled mb-0">
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="fas fa-check-circle me-3" style="color: #ff9800;"></i>
+                                <span class="text-dark">Preparação da pele</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="fas fa-check-circle me-3" style="color: #ff9800;"></i>
+                                <span class="text-dark">Base e corretivo no tom certo</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="fas fa-check-circle me-3" style="color: #ff9800;"></i>
+                                <span class="text-dark">Contorno e iluminação</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="fas fa-check-circle me-3" style="color: #ff9800;"></i>
+                                <span class="text-dark">Olhos esfumados simples</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="fas fa-check-circle me-3" style="color: #ff9800;"></i>
+                                <span class="text-dark">Finalização e selagem</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="fas fa-check-circle me-3" style="color: #ff9800;"></i>
+                                <span class="text-dark">Dicas de produtos acessíveis</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Includes Card -->
+                <div class="card mb-4 border-0 shadow-sm" style="background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border-radius: 16px; transition: all 0.3s ease;">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="p-2 rounded-circle me-3" style="background: rgba(192, 152, 83, 0.1);">
+                                <i class="fas fa-gift" style="color: #c09853; font-size: 1.5rem;"></i>
+                            </div>
+                            <h3 class="h5 fw-bold text-dark mb-0">Inclui</h3>
+                        </div>
+                        <ul class="list-unstyled mb-0">
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="fas fa-check-circle me-3" style="color: #c09853;"></i>
+                                <span class="text-dark">Apostila digital exclusiva</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="fas fa-check-circle me-3" style="color: #c09853;"></i>
+                                <span class="text-dark">Materiais para uso durante a aula (presencial)</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="fas fa-check-circle me-3" style="color: #c09853;"></i>
+                                <span class="text-dark">Dicas profissionais + Certificado digital</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="fas fa-check-circle me-3" style="color: #c09853;"></i>
+                                <span class="text-dark">Suporte pelo WhatsApp após o curso</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="pt-3">
+                    <button class="btn btn-lg w-100 fw-bold py-3 px-4 shadow-lg" 
+                            style="background: linear-gradient(90deg, #e91e63, #ff9800); 
+                                   border: none; 
+                                   border-radius: 16px; 
+                                   color: white; 
+                                   box-shadow: 0 20px 40px -10px rgba(233, 30, 99, 0.3);
+                                   transition: all 0.3s ease;
+                                   font-size: 1.1rem;"
+                            onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 25px 50px -10px rgba(233, 30, 99, 0.4)';"
+                            onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 20px 40px -10px rgba(233, 30, 99, 0.3)';">
+                        ✨ Quero me inscrever agora
+                    </button>
+                    <p class="text-center text-white-50 small mt-2 mb-0">
+                        Vagas limitadas • Próxima turma em breve
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 
     <!-- Users Section -->
-    <section class="users-section py-5">
+    <!-- <section class="users-section py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -201,7 +450,107 @@ Seja em uma produção profissional ou ensinando outras mulheres a se maquiar so
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+
+
+    <!-- CERTIFICADOS-->
+     <section class="py-5 position-relative overflow-hidden bg-light">
+  <div class="luxury-gradient"></div>
+
+  <div class="container position-relative z-2">
+    <div class="text-center mb-5">
+      <div class="d-inline-flex align-items-center gap-2 bg-white bg-opacity-50 rounded-pill px-4 py-2 mb-3">
+        <i class="fas fa-award text-primary"></i>
+        <span class="fw-medium text-luxury-purple">ALUNAS CERTIFICADAS</span>
+      </div>
+      <h2 class="fw-bold text-luxury-purple display-5 mb-3">Elas Conquistaram Seus Sonhos</h2>
+      <p class="lead text-secondary mx-auto" style="max-width: 700px;">
+        Conheça algumas das nossas alunas que se transformaram e agora dominam a arte da maquiagem.
+      </p>
+    </div>
+
+    <!-- Grid de Cards em vez de carousel -->
+    <div class="row justify-content-center">
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card border-0 shadow-sm card-hover bg-white">
+          <div class="position-relative">
+            <img src="assets/img/certificada1.jpeg" class="w-100" style="height: 300px; object-fit: cover;" alt="Maria Silva">
+            <div class="position-absolute top-0 end-0 m-3 bg-primary text-white rounded-circle p-2 shadow">
+              <i class="fas fa-award"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="text-luxury-purple fw-semibold">Maria Silva</h5>
+            <div class="mb-2 text-warning">
+              <i class="fas fa-star me-1"></i><i class="fas fa-star me-1"></i><i class="fas fa-star me-1"></i><i class="fas fa-star me-1"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="text-secondary fst-italic">"Transformei completamente minha rotina de maquiagem!"</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card border-0 shadow-sm card-hover bg-white">
+          <div class="position-relative">
+            <img src="assets/img/certificada2.jpeg" class="w-100" style="height: 300px; object-fit: cover;" alt="Ana Costa">
+            <div class="position-absolute top-0 end-0 m-3 bg-primary text-white rounded-circle p-2 shadow">
+              <i class="fas fa-award"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="text-luxury-purple fw-semibold">Ana Costa</h5>
+            <div class="mb-2 text-warning">
+              <i class="fas fa-star me-1"></i><i class="fas fa-star me-1"></i><i class="fas fa-star me-1"></i><i class="fas fa-star me-1"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="text-secondary fst-italic">"Agora me sinto confiante para qualquer ocasião!"</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card border-0 shadow-sm card-hover bg-white">
+          <div class="position-relative">
+            <img src="assets/img/certificada3.jpeg" class="w-100" style="height: 300px; object-fit: cover;" alt="Julia Santos">
+            <div class="position-absolute top-0 end-0 m-3 bg-primary text-white rounded-circle p-2 shadow">
+              <i class="fas fa-award"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="text-luxury-purple fw-semibold">Julia Santos</h5>
+            <div class="mb-2 text-warning">
+              <i class="fas fa-star me-1"></i><i class="fas fa-star me-1"></i><i class="fas fa-star me-1"></i><i class="fas fa-star me-1"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="text-secondary fst-italic">"O melhor investimento que fiz em mim mesma!"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+
+  
+</section>
+
+    <!--FIM CERTIFICADOS-->
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#certifiedCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#certifiedCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!--FIM CERTIFICADOS-->
 
     <!-- Services Section -->
     <section id="services" class="services-section py-5">
@@ -543,11 +892,7 @@ Seja em uma produção profissional ou ensinando outras mulheres a se maquiar so
                             <img src="assets/img/logo.png" alt="Gmaakeup Logo" class="img-fluid">
                         </a>
                         <p class="footer-description">
-                            Nam purus nibh, luctus at cursus vel, 
-                            efficitur eu dui. Aenean tellus massa, 
-                            euismod eu dictum in, tincidunt ac 
-                            lacus. Quisque vitae tellus a nibh 
-                            sollicitudin viverra id sed libero.
+                            Se você chegou até aqui, quero te dizer: ✨ Você também pode se sentir linda, confiante e dona da sua beleza. E eu vou te mostrar como
                         </p>
                     </div>
                 </div>
@@ -677,7 +1022,11 @@ Seja em uma produção profissional ou ensinando outras mulheres a se maquiar so
     
     <!-- Custom JS -->
     <script src="assets/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+  <script src="https://unpkg.com/lucide@latest"></script>
+      <script>
+    lucide.createIcons();
+  </script>
 </body>
 </html>
 
